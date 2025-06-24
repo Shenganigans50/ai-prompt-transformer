@@ -180,6 +180,21 @@
                         { id: 'verification', title: 'Verification Questions', placeholder: 'Questions to validate the AI output...', required: true }
                     ]
                 },
+                executive_comms: {
+                    name: "Executive Communications",
+                    description: "For leadership messaging, announcements, and strategic communications",
+                    sections: [
+                        { id: 'exec_context', title: 'Executive Context', placeholder: 'Your role, company position, and communication authority...', required: true },
+                        { id: 'comm_purpose', title: 'Communication Purpose', placeholder: 'Why are you communicating? What triggered this message?', required: true },
+                        { id: 'key_message', title: 'Key Message', placeholder: 'The core message you want to convey in 1-2 sentences...', required: true },
+                        { id: 'audience', title: 'Target Audience', placeholder: 'Who is receiving this? (All hands, board, investors, customers...)...', required: true },
+                        { id: 'sensitive_topics', title: 'Sensitive Topics', placeholder: 'What topics need careful handling? Legal, HR, competitive concerns...', required: false },
+                        { id: 'tone_style', title: 'Tone & Style', placeholder: 'Professional, inspiring, transparent, urgent, celebratory...', required: true },
+                        { id: 'supporting_details', title: 'Supporting Details', placeholder: 'Background info, data, context that supports your message...', required: true },
+                        { id: 'call_to_action', title: 'Call to Action', placeholder: 'What do you want the audience to do after reading?', required: false },
+                        { id: 'exec_approval', title: 'Approval Requirements', placeholder: 'Who needs to review/approve before sending?', required: false }
+                    ]
+                },
                 creative: {
                     name: "Creative Ideation",
                     description: "Optimized for brainstorming and creative work",
